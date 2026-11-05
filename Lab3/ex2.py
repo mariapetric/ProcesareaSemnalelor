@@ -6,7 +6,7 @@ from matplotlib.animation import FuncAnimation, PillowWriter
 
 
 def generate_signal(t, f):
-    return np.cos(2 * np.pi * f * t)
+    return np.sin(2 * np.pi * f * t)
 
 
 def wrap_signal(t, x, f):
